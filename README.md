@@ -352,7 +352,7 @@ And then choosing an individual stream:
 
 ![event streams](https://github.com/abby-fuller/ecs-demo/blob/master/images/event_streams.png)
 
-##That's a wrap!
+## That's a wrap!
 
 Congratulations!  You've deployed an ECS Cluster with two working endpoints.  
 
