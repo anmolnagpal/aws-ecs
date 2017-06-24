@@ -56,7 +56,7 @@ Running the Cloudformation template or the first run wizard should result in som
 
 ![cloudformation output](https://github.com/abby-fuller/ecs-demo/blob/master/images/cloudformation_output.png)
 
-##Setting up your IAM roles
+## Setting up your IAM roles
 
 In order to work with the AWS CLI, you'll need an IAM role with the proper permissions set up.  To do this, we'll create both an IAM Group, and an IAM user.
 
@@ -301,7 +301,7 @@ Once you've added your log driver, save the Container Definition, and create the
 
 Repeat the Task Definition creation process with the API container, taking care to use the api container image registry, and the correct port (8000) for the **Container Port** option.  For the log driver, make sure the **awslogs-stream-prefix** is **api**.
 
-##Create your Services
+## Create your Services
 
 Navigate back to the ECS console, and choose the cluster that you created during the first run wizard.  This should be named **ecs-demo**.  If you don't have a cluster named **ecs-demo**, create one with the **Create Cluster** option.
 
