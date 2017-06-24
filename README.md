@@ -342,7 +342,7 @@ We can also test from the ALB itself.  To find the DNS A record for your ALB, na
 You can see that the ALB routes traffic appropriately based on the paths we specified when we registered the containers:  `/web*/` requests go to our web service, and `/api*/` requests go to our API service.
 
 
-##More in-depth logging with Cloudwatch
+## More in-depth logging with Cloudwatch
 
 When we created our Container Definitions, we also added the awslogs driver, which sends logs to [Cloudwatch](https://aws.amazon.com/cloudwatch/).  You can see more details logs for your services by going to the Cloudwatch console, and selecting first our log group:
 
