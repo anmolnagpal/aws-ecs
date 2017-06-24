@@ -108,7 +108,7 @@ Note:  if you are running Ubuntu, it is possible that you will need to preface y
 If you are unable to login to ECR, check your IAM user group permissions.
 
 
-##Creating the container registries with ECR
+## Creating the container registries with ECR
 
 Before we can build and push our images, we need somewhere to push them to.  In this case, we're going to create two repositories in [ECR](https://aws.amazon.com/ecr/).
 
@@ -125,7 +125,7 @@ Once you've created the repository, it will display the push commands.  Take not
 Once you've created the ecs-demo-web, repeat the process for a second repository.  This one should be named **ecs-demo-api**.  Take note of the push commands for this second repository, also.  Push commands are unique per repository.
 
 
-##Prepping our Docker images
+## Prepping our Docker images
 
 If you haven't already, clone this repository:
 
