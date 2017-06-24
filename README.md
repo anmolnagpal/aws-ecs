@@ -16,7 +16,7 @@
 * [More in-depth logging with Cloudwatch](https://github.com/abby-fuller/ecs-demo/blob/master/README.md#more-in-depth-logging-with-cloudwatch)
 
 
-##Overview of workshop##
+## Overview of workshop##
 This workshop introduces the basics of working with [ECS](https://aws.amazon.com/ecs/).  This includes:  setting up the initial ECS cluster, and deploying two services, with traffic routed through an [ALB](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/).
 
 Prior to beginning the workshop, you'll need to complete a few set up steps: 
