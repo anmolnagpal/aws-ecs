@@ -233,7 +233,7 @@ You can see your pushed images by viewing the repository in the AWS Console.  Al
         ]
     }
 
-##Creating the ALB
+## Creating the ALB
 
 Now that we've pushed our images, we need an Application Load Balancer (ALB)[https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/] to route traffic to our endpoints. Compared to a traditional load balancer, an ALB lets you direct traffic between different endpoints.  In our example, we'll use two separate endpoints:  `/web` and `/api`.
 
@@ -271,7 +271,7 @@ Note:  If you created your own security group, and only added a rule for port 80
      All TCP      0-65535       tcp       <id of this security group>
      
 
-##Create your Task Definitions
+## Create your Task Definitions
 
 Before you can register a container to a service, it needs be a part of a Task Definition. Task Definitions define things like environment variables, the container image you wish to use, and the resources you want to allocate to the service (port, memory, CPU).  To create a Task Definition, choose **Task Definitions** from the ECS console menu.  Then, choose **Create a Task Definition**:
 
