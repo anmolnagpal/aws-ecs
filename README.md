@@ -191,7 +191,7 @@ The API container should return:
     hi!  i'm ALSO served via Python + Flask.  i'm a second web endpoint.
 
 
-##Pushing our tested images to ECR
+## Pushing our tested images to ECR
 
 Now that we've tested our images locally, we need to tag them again, and push them to ECR.  This will allow us to use them in TaskDefinitions that can be deployed to an ECS cluster.  
 
