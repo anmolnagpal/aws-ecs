@@ -74,7 +74,7 @@ Name your user something like "**ecs-demo-user**".  From the next step in the wi
 
 When the wizard finishes, make sure to copy or download your access key and secret key.  You'll need them in the next step.
 
-##Configuring the AWS CLI
+## Configuring the AWS CLI
 
 If you've never configured the AWS CLI, the easiest way is by running:
 
