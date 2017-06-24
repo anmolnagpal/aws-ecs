@@ -327,7 +327,7 @@ If the values look correct, click **Save** to add your Container.
 
 Repeat this process for the API container and task definition.  
 
-##Testing our service deployments from the console and the ALB
+## Testing our service deployments from the console and the ALB
 
 You can see service level events from the ECS console.  This includes deployment events. You can test that both of your services deployed, and registered properly with the ALB by looking at the service's **Events** tab:
 
